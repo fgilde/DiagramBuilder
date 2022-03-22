@@ -3,8 +3,13 @@ html {
     min-height: 100%;
 }
 
+#diagramcontent {
+    background-color: white !important;
+}
+
 body {
-    overflow-y:hidden;
+    /*filter: invert(1);*/
+    overflow-y: hidden;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -39,7 +44,7 @@ input, button, select, textarea {
     }
 
 .db-header-container {
-    background-color: #046AE5;
+    background-color: #3f51b5;
     width: 100%;
 }
 
@@ -284,7 +289,7 @@ input, button, select, textarea {
 
 .e-accordion .e-acrdn-item.e-select.e-selected.e-expand-state > .e-acrdn-header .e-acrdn-header-content,
 .e-accordion .e-acrdn-item.e-select.e-expand-state > .e-acrdn-header .e-acrdn-header-content {
-    color: #046AE5;
+    color: #3f51b5;
 }
 
 .e-accordion .e-acrdn-item.e-expand-state.e-select:not(.e-selected) > .e-acrdn-headdb-overview-parenter:focus {
@@ -457,14 +462,14 @@ input, button, select, textarea {
 
 .e-diagram-resize-handle,
 .e-diagram-endpoint-handle {
-    fill: #046AE5;
+    fill: #3f51b5;
     stroke: #ffffff;
     stroke-width: 1;
 }
 
-.e-diagram-endpoint-handle.e-connected {
-    stroke: #046AE5;
-}
+    .e-diagram-endpoint-handle.e-connected {
+        stroke: #3f51b5;
+    }
 
 .e-diagram-resize-handle.e-disabled {
     fill: #aaaaaa;
@@ -571,12 +576,12 @@ input, button, select, textarea {
     height: 28px;
 }
 
-.db-menu-style .e-dropdown-btn.e-btn-hover,
-.db-menu-style .e-dropdown-btn:hover {
-    background-color: #ffffff;
-    color: #046AE5;
-    box-shadow: 0 0 0 0;
-}
+    .db-menu-style .e-dropdown-btn.e-btn-hover,
+    .db-menu-style .e-dropdown-btn:hover {
+        background-color: #ffffff;
+        color: #3f51b5;
+        box-shadow: 0 0 0 0;
+    }
 
 .e-dropdown-popup,
 .e-contextmenu-container ul.e-contextmenu  {
@@ -1265,14 +1270,14 @@ input[type="color"]::-moz-color-swatch {
     top: 0px;
 }
 
-.e-control-wrapper.e-slider-container .e-slider .e-handle {
-    background-color: #046AE5;
-    border-color: #046AE5;
-}
+    .e-control-wrapper.e-slider-container .e-slider .e-handle {
+        background-color: #3f51b5;
+        border-color: #3f51b5;
+    }
 
-.e-control-wrapper.e-slider-container .e-slider .e-range {
-    background-color: #046AE5;
-}
+    .e-control-wrapper.e-slider-container .e-slider .e-range {
+        background-color: #3f51b5;
+    }
 
 /* Slider Control Customization - End */
 
@@ -1340,7 +1345,7 @@ input[type="color"]::-moz-color-swatch {
 }
 
 .e-dialog .e-btn.e-flat.e-db-primary.e-primary {
-    background-color: #046AE5;
+    background-color: #3f51b5;
     border-color: #0058C1;
     color: #ffffff;
 }
@@ -1890,7 +1895,7 @@ input.db-layer-edit {
 }
 
 .e-dropdownbase .e-list-item.e-active, .e-dropdownbase .e-list-item.e-active.e-hover {
-    color: #046AE5;
+    color: #3f51b5;
 }
 
 .e-dropdownlist .e-input-group.e-control-wrapper .e-input-group-icon:last-child {
@@ -1968,13 +1973,13 @@ input.db-layer-edit {
 }
 
 .e-radio:checked + label::after {
-    background-color: #046AE5;
-    color: #046AE5;
+    background-color: #3f51b5;
+    color: #3f51b5;
 }
 
 .e-radio:checked + label:hover::after {
-    background-color: #046AE5;
-    color: #046AE5;
+    background-color: #3f51b5;
+    color: #3f51b5;
 }
 
 .e-radio:checked:focus + label::before {
@@ -1983,8 +1988,8 @@ input.db-layer-edit {
 }
 
 .e-radio:checked:focus + label::after {
-    background-color: #046AE5;
-    color: #046AE5;
+    background-color: #3f51b5;
+    color: #3f51b5;
 }
 
 /* Radio Button - Customization End */
@@ -2063,10 +2068,10 @@ input.db-layer-edit {
     height: 30px;
 }
 
-.db-diagram-template-parent-text.active {
-    background-color: #EEEEEE;
-    color: #046AE5;
-}
+    .db-diagram-template-parent-text.active {
+        background-color: #EEEEEE;
+        color: #3f51b5;
+    }
 
 .db-diagram-template-parent-text:hover {
     background-color: #EEEEEE;
@@ -2217,7 +2222,7 @@ input.db-layer-edit {
 /* Common Primary Button Style - Start */
 
 .db-btn-primary {
-    background-color: #046AE5;
+    background-color: #3f51b5;
     border: 1px solid #0058C1;
     border-radius: 3px;
     color: white;
@@ -2330,14 +2335,14 @@ input:focus {
 
 #moreShapesDialog .e-listview .e-list-item.e-focused .e-checkbox-wrapper .e-frame.e-check, 
 #moreShapesDialog .e-listview .e-list-item.e-focused .e-css.e-checkbox-wrapper .e-frame.e-check {
-	background-color: #046AE5;
+	background-color: #3f51b5;
     border-color: transparent;
 }
 
 .e-checkbox-wrapper .e-frame.e-check, .e-css.e-checkbox-wrapper .e-frame.e-check,
 .e-checkbox-wrapper .e-checkbox:focus + .e-frame.e-check, .e-css.e-checkbox-wrapper .e-checkbox:focus + .e-frame.e-check,
 .e-checkbox-wrapper:hover .e-frame.e-check, .e-css.e-checkbox-wrapper:hover .e-frame.e-check {
-    background-color: #046AE5;
+    background-color: #3f51b5;
     border-color: transparent;
 }
 
@@ -2345,13 +2350,13 @@ input.e-input::selection, textarea.e-input::selection, input.e-input.e-css::sele
 textarea.e-input.e-css::selection, .e-input-group input.e-input::selection, 
 .e-input-group.e-control-wrapper input.e-input::selection, 
 .e-float-input input::selection, .e-float-input.e-control-wrapper input::selection {
-    background: #046AE5;
+    background: #3f51b5;
     color: white;
 }
 
 input.e-input::selection,
 .e-diagram-text-edit::selection {
-    background: #046AE5;
+    background: #3f51b5;
     color: white;
 }
 
@@ -2422,7 +2427,7 @@ input.e-input::selection,
 
 .db-menu-container .e-menu-item.e-menu-caret-icon.e-focused, .e-menu-item.e-menu-caret-icon.e-selected, .e-menu-item.e-menu-caret-icon.e-focused.e-selected {
     background: #ffff;
-    color: #046AE5;
+    color: #3f51b5;
     border-radius: 2px;
 }
 
@@ -2582,7 +2587,7 @@ input.e-input::selection,
     stroke-dashoffset: 0;
     animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
     stroke-linecap: round;
-    stroke: #046AE5;
+    stroke: #3f51b5;
 }
 #blazor-error-ui {
     display: none;
@@ -2709,25 +2714,25 @@ input.e-input::selection,
 #btnFileMenu.e-btn.e-active, button#btnFileMenu:hover
 {
     background-color: #ffffff;
-    color: #046AE5;
+    color: #3f51b5;
 }
 #btnEditMenu.e-btn.e-active, button#btnEditMenu:hover
 {
     background-color: #ffffff;
-    color: #046AE5;
+    color: #3f51b5;
 }
 #btnViewMenu.e-btn.e-active, button#btnViewMenu:hover
 {
     background-color: #ffffff;
-    color: #046AE5;
+    color: #3f51b5;
 }
 #btnArrangeMenu.e-btn.e-active, button#btnArrangeMenu:hover
 {
     background-color: #ffffff;
-    color: #046AE5;
+    color: #3f51b5;
 }
 #btnWindowMenu.e-btn.e-active, button#btnWindowMenu:hover
 {
     background-color: #ffffff;
-    color: #046AE5;
+    color: #3f51b5;
 }

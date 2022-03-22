@@ -67,6 +67,13 @@
             <SfToolbar @ref="@Toolbar" OverflowMode="@OverflowMode.Scrollable">
                 <ToolbarEvents Clicked="@ToolbarEditorClick"></ToolbarEvents>
                 <ToolbarItems>
+                    <ToolbarItem PrefixIcon="sf-icon-Undo tb-icons" TooltipText="Dark Mode">
+                        <Template>
+                            <SfSwitch TChecked="bool" ValueChange="@(async (e) => await DarkModeChange(e))"></SfSwitch>
+                        </Template>
+                    </ToolbarItem>
+                    <ToolbarItem Type="@ItemType.Separator"></ToolbarItem>
+
                     <ToolbarItem @ref="@UndoItem" PrefixIcon="sf-icon-Undo tb-icons" TooltipText="Undo" CssClass="tb-item-start tb-item-undo"></ToolbarItem>
                     <ToolbarItem @ref="@RedoItem" PrefixIcon="sf-icon-Redo tb-icons" TooltipText="Redo" CssClass="tb-item-end tb-item-redo"></ToolbarItem>
                     <ToolbarItem Type="@ItemType.Separator"></ToolbarItem>

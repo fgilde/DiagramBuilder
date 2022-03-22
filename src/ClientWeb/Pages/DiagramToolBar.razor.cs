@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Collections.ObjectModel;
 using System.Globalization;
+using Syncfusion.Blazor.Buttons;
 
 namespace DiagramBuilder
 {
@@ -369,5 +370,10 @@ namespace DiagramBuilder
         }
 
         #endregion
+
+        private async Task DarkModeChange(ChangeEventArgs<bool> arg)
+        {
+            await jsRuntime.InvokeVoidAsync("darkMode", arg.Checked);
+        }
     }
 }

@@ -1,4 +1,8 @@
-﻿function renameDiagram(args) {
+﻿function darkMode(bool) {
+    document.body.style.filter = bool ? 'invert(1)' : null;
+}
+
+function renameDiagram(args) {
     document.getElementsByClassName('db-diagram-name-container')[0].classList.add('db-edit-name');
     var element = document.getElementById('diagramEditable');
     element.value = document.getElementById('diagramName').innerHTML;

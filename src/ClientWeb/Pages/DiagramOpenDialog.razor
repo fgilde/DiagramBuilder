@@ -20,7 +20,7 @@
                             <div class=@ClassName @onclick="@ShowFlowChartTemplates">
                                 <span>Flow Chart</span>
                             </div>
-                            @*if (this.Value == "Mind Map")
+                            if (this.Value == "Mind Map")
                                 ClassName = "row db-diagram-template-parent-text mindmap-template active";
                             else
                                 ClassName = "row db-diagram-template-parent-text mindmap-template";
@@ -33,7 +33,7 @@
                                 ClassName = "row db-diagram-template-parent-text orgchart-template";
                             <div class=@ClassName @onclick="@ShowOrgChartTemplates">
                                 <span>Org Chart</span>
-                            </div>*@
+                            </div>
                         }
                     </div>
                     <div class="col-xs-9 diagramTemplates temp-right-pane" style="padding-left:0px;padding-right:0px">
@@ -47,7 +47,7 @@
                                             </div>
                                         </div>
                                     }
-                                    @*else if (this.Value == "Mind Map")
+                                    else if (this.Value == "Mind Map")
                                     {
                                         <div class="db-diagram-template-image-div" id="mindmap_child0" @onclick="@BlankMindMapDiagram">
                                             <div class="db-diagram-template-svg-image" style="background-image: url(&quot;./assets/dbstyle/common_images/blank_diagram_mind.svg&quot;);">
@@ -60,7 +60,7 @@
                                             <div class="db-diagram-template-svg-image" style="background-image: url(&quot;./assets/dbstyle/common_images/blank_diagram_org.svg&quot;);">
                                             </div>
                                         </div>
-                                    }*@
+                                    }
                                 }
                                 <div class="db-diagram-template-text">
                                     <span id="diagramTemplateText">Blank Diagram</span>
@@ -78,7 +78,7 @@
                                             <span id="diagramTemplateText">Credit Card Processing</span>
                                         </div>
                                     }
-                                    @*else if (this.Value == "Mind Map")
+                                    else if (this.Value == "Mind Map")
                                     {
                                         <div class="db-diagram-template-image-div" id="mindmap_child1" @onclick="@BusinessPlanningDiagram">
                                             <div class="db-diagram-template-svg-image" style="background-image: url(&quot;./assets/dbstyle/mindmap_images/BusinessPlanning.SVG&quot;);">
@@ -97,7 +97,7 @@
                                         <div class="db-diagram-template-text">
                                             <span id="diagramTemplateText">Org Template Style - 1</span>
                                         </div>
-                                    }*@
+                                    }
                                 }
                             </div>
                             <div id="" class="db-diagram-template-div" style="">
@@ -112,7 +112,7 @@
                                             <span id="diagramTemplateText">Banking Teller Process Flow</span>
                                         </div>
                                     }
-                                    @*else if (this.Value == "Mind Map")
+                                    else if (this.Value == "Mind Map")
                                     {
                                         <div class="db-diagram-template-image-div" id="mindmap_child2" @onclick="@TQMDiagram">
                                             <div class="db-diagram-template-svg-image" style="background-image: url(&quot;./assets/dbstyle/mindmap_images/TQM.SVG&quot;);">
@@ -131,7 +131,7 @@
                                         <div class="db-diagram-template-text">
                                             <span id="diagramTemplateText">Org Template Style - 2</span>
                                         </div>
-                                    }*@
+                                    }
                                 }
                             </div>
                             <div id="" class="db-diagram-template-div" style="">
@@ -146,7 +146,7 @@
                                             <span id="diagramTemplateText">Agile"s Developer Workflow</span>
                                         </div>
                                     }
-                                    @*else if (this.Value == "Mind Map")
+                                    else if (this.Value == "Mind Map")
                                     {
                                         <div class="db-diagram-template-image-div" id="mindmap_child3" @onclick="@SoftwareLifeCycleDiagram">
                                             <div class="db-diagram-template-svg-image" style="background-image: url(&quot;./assets/dbstyle/mindmap_images/SoftwareLifeCycle.SVG&quot;);">
@@ -165,7 +165,7 @@
                                         <div class="db-diagram-template-text">
                                             <span id="diagramTemplateText">Org Template Style - 3</span>
                                         </div>
-                                    }*@
+                                    }
                                 }
                             </div>
                         </div>
