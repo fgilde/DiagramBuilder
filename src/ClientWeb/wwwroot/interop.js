@@ -1,5 +1,5 @@
 ﻿function darkMode(bool) {
-    document.body.style.filter = bool ? 'invert(1)' : null;
+    document.body.style.filter = bool ? 'invert(100%) hue-rotate(180deg)' : null;
 }
 
 function renameDiagram(args) {
